@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long
-int dfn[100010],low[100010],a[100010],cnt,f[100010],dp[100010],d[100010],size[100010],mod,sum,maxn,ans;
+int dfn[100010],low[100010],cnt,f[100010],dp[100010],d[100010],size[100010],mod,sum,maxn,ans;
 bool vis[100010];
 stack<int> st;
 vector<int> e[100010];
